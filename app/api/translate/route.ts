@@ -1,6 +1,5 @@
 import { NextResponse } from "next/server";
 import { exec } from "child_process";
-import { stdout } from "process";
 
 export async function POST(request: Request) {
 	const { text } = await request.json();
