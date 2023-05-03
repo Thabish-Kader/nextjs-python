@@ -1,5 +1,5 @@
 "use client";
-import { headers } from "next/dist/client/components/headers";
+
 import React, { useState } from "react";
 
 export const UserInputs = () => {
@@ -16,6 +16,7 @@ export const UserInputs = () => {
 		});
 		const { translatedText } = await res.json();
 		setTranslatedText(translatedText);
+		setText("");
 	};
 	return (
 		<form
