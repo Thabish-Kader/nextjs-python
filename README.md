@@ -9,6 +9,6 @@ A very small project to learn how to execute python script in Next js.
 
 ## Usecases for fork(), spawn() and exec()
 
--   fork() : used to create Node.js process to run a **sperate module** and can communicate with the parent process useing message channels
--   spawn() : used to run commands and scripts in a <ins>new</ins> instance of terminal
--   exec : useused to run commands and scripts in the **same** instance of terminald
+-   fork() : used to create Node.js process to run a <ins>**sperate module**</ins> and can communicate with the parent process useing message channels
+-   spawn() : used to run commands and scripts in a <ins>**new**</ins> instance of terminal
+-   exec : useused to run commands and scripts in the <ins>**same**</ins> instance of terminald
