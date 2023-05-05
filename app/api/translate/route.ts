@@ -15,6 +15,7 @@ export async function POST(request: Request) {
 			}
 		);
 	});
+
 	const translatedText = await translatedTextPromise;
 	return NextResponse.json({ translatedText });
 }
